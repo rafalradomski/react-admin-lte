@@ -1,0 +1,15 @@
+.nav > li > a:active, .nav > li > a:active, .nav > li > a:focus {
+    background: #222;
+  }
+  
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background: rgb(97, 97, 97);
+  }
+  .nav > li > a:hover, .nav > li > a:hover, .nav > li > a:hover {
+    background: rgb(190, 190, 190);
+  }
+  
+  i {
+    color: white;
+    padding-right: 8px;
+  }

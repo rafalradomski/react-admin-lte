@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import { InfoBox } from "./components/InfoBox";
 import { CollapseBox } from "./components/CollapseBox";
 import { SimpleTable } from "./components/SimpleTable";
+import { CustomNav } from "./components/CustomNav";
+import { IconButton, ImageButton , TextButton } from './components/Buttons';
 import "./App.css";
 
 class App extends Component {
@@ -10,8 +12,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <h1 className="App-title">AdminLte React Components</h1>
+        <h1 className="App-title">React AdminLTE</h1>
+        <CustomNav />
         </header>
+        <h2>Buttons</h2>
+        <div className="buttonWrapper">
+          <IconButton />
+          <TextButton />
+          <ImageButton />
+        </div>
         <h2>Collapseable Boxes</h2>
         <div className="wrapper">
           <CollapseBox
@@ -48,7 +57,7 @@ class App extends Component {
         </div>
         <h2>Table</h2>
         <div className="wrapper">
-          <SimpleTable />
+          <SimpleTable className="simpleTable" />
         </div>
       </div>
     );

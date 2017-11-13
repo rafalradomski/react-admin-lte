@@ -5,7 +5,7 @@ export const CollapseBox = ({ text, type }) => (
     <div className={`box box-${type}`}>
       <div className="box-header with-border">
         <h3 className="box-title">{text.title}</h3>
-        <div class="box-tools pull-right">
+        <div className="box-tools pull-right">
           <button type="button" className="btn btn-box-tool" data-widget="collapse"><i className="fa fa-minus">-</i>
           </button>
         </div>

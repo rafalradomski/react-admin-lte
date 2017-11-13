@@ -1,0 +1,27 @@
+.info-box {
+    text-align: center;
+    width: 20%;
+}
+
+.info-box :hover {
+    cursor: pointer;
+    background-color: rgba(192,192,192,0.03);
+}
+
+.info-box-content {
+    padding: 22px 20px 23px 20px;
+}
+
+.info-box-icon > img {
+    padding-bottom: 9px
+}
+
+.info-box-icon :hover{
+    animation: spin-img infinite 10s linear;
+}
+
+@keyframes spin-img {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  

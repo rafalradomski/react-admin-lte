@@ -7,7 +7,7 @@ export const ImageButton = () => (
 );
 
 export const TextButton = () => (
-  <button type="button" className="btn btn-block btn-primary">
+  <button type="button" className="btn btn-block btn-warning">
     Primary
   </button>
 );
